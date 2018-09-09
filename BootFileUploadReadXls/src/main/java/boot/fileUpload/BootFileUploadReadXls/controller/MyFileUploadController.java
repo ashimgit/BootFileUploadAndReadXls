@@ -24,6 +24,8 @@ public class MyFileUploadController {
 		
 		dao.insertDb("2", null);
 		
+		System.out.println("Testing from controller");
+		
 		return s1;
 	}
 }
